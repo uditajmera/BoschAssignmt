@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0C63D41E14395100F14C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63D31E14395100F14C66 /* AppDelegate.swift */; };
+		FD0C63D61E14395100F14C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63D51E14395100F14C66 /* ViewController.swift */; };
+		FD0C63D91E14395100F14C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63D71E14395100F14C66 /* Main.storyboard */; };
+		FD0C63DC1E14395100F14C66 /* BoschAssignmt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63DA1E14395100F14C66 /* BoschAssignmt.xcdatamodeld */; };
+		FD0C63DE1E14395100F14C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63DD1E14395100F14C66 /* Assets.xcassets */; };
+		FD0C63E11E14395100F14C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63DF1E14395100F14C66 /* LaunchScreen.storyboard */; };
+		FD0C63EC1E14395100F14C66 /* BoschAssignmtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63EB1E14395100F14C66 /* BoschAssignmtTests.swift */; };
+		FD0C63F71E14395100F14C66 /* BoschAssignmtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63F61E14395100F14C66 /* BoschAssignmtUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD0C63E81E14395100F14C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0C63C81E14395100F14C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0C63CF1E14395100F14C66;
+			remoteInfo = BoschAssignmt;
+		};
+		FD0C63F31E14395100F14C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0C63C81E14395100F14C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0C63CF1E14395100F14C66;
+			remoteInfo = BoschAssignmt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD0C63D01E14395100F14C66 /* BoschAssignmt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoschAssignmt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C63D31E14395100F14C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0C63D51E14395100F14C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0C63D81E14395100F14C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0C63DB1E14395100F14C66 /* BoschAssignmt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoschAssignmt.xcdatamodel; sourceTree = "<group>"; };
+		FD0C63DD1E14395100F14C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0C63E01E14395100F14C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0C63E21E14395100F14C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C63E71E14395100F14C66 /* BoschAssignmtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoschAssignmtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C63EB1E14395100F14C66 /* BoschAssignmtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoschAssignmtTests.swift; sourceTree = "<group>"; };
+		FD0C63ED1E14395100F14C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C63F21E14395100F14C66 /* BoschAssignmtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoschAssignmtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C63F61E14395100F14C66 /* BoschAssignmtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoschAssignmtUITests.swift; sourceTree = "<group>"; };
+		FD0C63F81E14395100F14C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0C63CD1E14395100F14C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63E41E14395100F14C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63EF1E14395100F14C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0C63C71E14395100F14C66 = {
+			isa = PBXGroup;
+			children = (
+				FD0C63D21E14395100F14C66 /* BoschAssignmt */,
+				FD0C63EA1E14395100F14C66 /* BoschAssignmtTests */,
+				FD0C63F51E14395100F14C66 /* BoschAssignmtUITests */,
+				FD0C63D11E14395100F14C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0C63D11E14395100F14C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63D01E14395100F14C66 /* BoschAssignmt.app */,
+				FD0C63E71E14395100F14C66 /* BoschAssignmtTests.xctest */,
+				FD0C63F21E14395100F14C66 /* BoschAssignmtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0C63D21E14395100F14C66 /* BoschAssignmt */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63D31E14395100F14C66 /* AppDelegate.swift */,
+				FD0C63D51E14395100F14C66 /* ViewController.swift */,
+				FD0C63D71E14395100F14C66 /* Main.storyboard */,
+				FD0C63DD1E14395100F14C66 /* Assets.xcassets */,
+				FD0C63DF1E14395100F14C66 /* LaunchScreen.storyboard */,
+				FD0C63E21E14395100F14C66 /* Info.plist */,
+				FD0C63DA1E14395100F14C66 /* BoschAssignmt.xcdatamodeld */,
+			);
+			path = BoschAssignmt;
+			sourceTree = "<group>";
+		};
+		FD0C63EA1E14395100F14C66 /* BoschAssignmtTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63EB1E14395100F14C66 /* BoschAssignmtTests.swift */,
+				FD0C63ED1E14395100F14C66 /* Info.plist */,
+			);
+			path = BoschAssignmtTests;
+			sourceTree = "<group>";
+		};
+		FD0C63F51E14395100F14C66 /* BoschAssignmtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63F61E14395100F14C66 /* BoschAssignmtUITests.swift */,
+				FD0C63F81E14395100F14C66 /* Info.plist */,
+			);
+			path = BoschAssignmtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0C63CF1E14395100F14C66 /* BoschAssignmt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C63FB1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmt" */;
+			buildPhases = (
+				FD0C63CC1E14395100F14C66 /* Sources */,
+				FD0C63CD1E14395100F14C66 /* Frameworks */,
+				FD0C63CE1E14395100F14C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoschAssignmt;
+			productName = BoschAssignmt;
+			productReference = FD0C63D01E14395100F14C66 /* BoschAssignmt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD0C63E61E14395100F14C66 /* BoschAssignmtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C63FE1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtTests" */;
+			buildPhases = (
+				FD0C63E31E14395100F14C66 /* Sources */,
+				FD0C63E41E14395100F14C66 /* Frameworks */,
+				FD0C63E51E14395100F14C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0C63E91E14395100F14C66 /* PBXTargetDependency */,
+			);
+			name = BoschAssignmtTests;
+			productName = BoschAssignmtTests;
+			productReference = FD0C63E71E14395100F14C66 /* BoschAssignmtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD0C63F11E14395100F14C66 /* BoschAssignmtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C64011E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtUITests" */;
+			buildPhases = (
+				FD0C63EE1E14395100F14C66 /* Sources */,
+				FD0C63EF1E14395100F14C66 /* Frameworks */,
+				FD0C63F01E14395100F14C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0C63F41E14395100F14C66 /* PBXTargetDependency */,
+			);
+			name = BoschAssignmtUITests;
+			productName = BoschAssignmtUITests;
+			productReference = FD0C63F21E14395100F14C66 /* BoschAssignmtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0C63C81E14395100F14C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Udit Ajmera";
+				TargetAttributes = {
+					FD0C63CF1E14395100F14C66 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FD0C63E61E14395100F14C66 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD0C63CF1E14395100F14C66;
+					};
+					FD0C63F11E14395100F14C66 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD0C63CF1E14395100F14C66;
+					};
+				};
+			};
+			buildConfigurationList = FD0C63CB1E14395100F14C66 /* Build configuration list for PBXProject "BoschAssignmt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0C63C71E14395100F14C66;
+			productRefGroup = FD0C63D11E14395100F14C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0C63CF1E14395100F14C66 /* BoschAssignmt */,
+				FD0C63E61E14395100F14C66 /* BoschAssignmtTests */,
+				FD0C63F11E14395100F14C66 /* BoschAssignmtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0C63CE1E14395100F14C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63E11E14395100F14C66 /* LaunchScreen.storyboard in Resources */,
+				FD0C63DE1E14395100F14C66 /* Assets.xcassets in Resources */,
+				FD0C63D91E14395100F14C66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63E51E14395100F14C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63F01E14395100F14C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0C63CC1E14395100F14C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63D61E14395100F14C66 /* ViewController.swift in Sources */,
+				FD0C63DC1E14395100F14C66 /* BoschAssignmt.xcdatamodeld in Sources */,
+				FD0C63D41E14395100F14C66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63E31E14395100F14C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63EC1E14395100F14C66 /* BoschAssignmtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63EE1E14395100F14C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63F71E14395100F14C66 /* BoschAssignmtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD0C63E91E14395100F14C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0C63CF1E14395100F14C66 /* BoschAssignmt */;
+			targetProxy = FD0C63E81E14395100F14C66 /* PBXContainerItemProxy */;
+		};
+		FD0C63F41E14395100F14C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0C63CF1E14395100F14C66 /* BoschAssignmt */;
+			targetProxy = FD0C63F31E14395100F14C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD0C63D71E14395100F14C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0C63D81E14395100F14C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0C63DF1E14395100F14C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0C63E01E14395100F14C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0C63F91E14395100F14C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0C63FA1E14395100F14C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0C63FC1E14395100F14C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoschAssignmt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD0C63FD1E14395100F14C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoschAssignmt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FD0C63FF1E14395100F14C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoschAssignmtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoschAssignmt.app/BoschAssignmt";
+			};
+			name = Debug;
+		};
+		FD0C64001E14395100F14C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoschAssignmtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoschAssignmt.app/BoschAssignmt";
+			};
+			name = Release;
+		};
+		FD0C64021E14395100F14C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoschAssignmtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoschAssignmt;
+			};
+			name = Debug;
+		};
+		FD0C64031E14395100F14C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoschAssignmtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UA.BoschAssignmtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoschAssignmt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0C63CB1E14395100F14C66 /* Build configuration list for PBXProject "BoschAssignmt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63F91E14395100F14C66 /* Debug */,
+				FD0C63FA1E14395100F14C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0C63FB1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63FC1E14395100F14C66 /* Debug */,
+				FD0C63FD1E14395100F14C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD0C63FE1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63FF1E14395100F14C66 /* Debug */,
+				FD0C64001E14395100F14C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD0C64011E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C64021E14395100F14C66 /* Debug */,
+				FD0C64031E14395100F14C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD0C63DA1E14395100F14C66 /* BoschAssignmt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD0C63DB1E14395100F14C66 /* BoschAssignmt.xcdatamodel */,
+			);
+			currentVersion = FD0C63DB1E14395100F14C66 /* BoschAssignmt.xcdatamodel */;
+			path = BoschAssignmt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD0C63C81E14395100F14C66 /* Project object */;
+}
