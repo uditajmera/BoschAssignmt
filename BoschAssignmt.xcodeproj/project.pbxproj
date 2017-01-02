@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FD9C5EF6BAFDEC7BE7C5898 /* Pods_BoschAssignmtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398B6BB60A19A2C639D988F3 /* Pods_BoschAssignmtUITests.framework */; };
+		967F8666A497764CD3D14063 /* Pods_BoschAssignmtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B6BA1C4B98A8CC970B6D31 /* Pods_BoschAssignmtTests.framework */; };
+		A435D739CA5EB86D2AB1155D /* Pods_BoschAssignmt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A5CBA46310932DF04753C2 /* Pods_BoschAssignmt.framework */; };
 		FD0C63D41E14395100F14C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63D31E14395100F14C66 /* AppDelegate.swift */; };
 		FD0C63D61E14395100F14C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63D51E14395100F14C66 /* ViewController.swift */; };
 		FD0C63D91E14395100F14C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63D71E14395100F14C66 /* Main.storyboard */; };
@@ -15,6 +18,22 @@
 		FD0C63E11E14395100F14C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63DF1E14395100F14C66 /* LaunchScreen.storyboard */; };
 		FD0C63EC1E14395100F14C66 /* BoschAssignmtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63EB1E14395100F14C66 /* BoschAssignmtTests.swift */; };
 		FD0C63F71E14395100F14C66 /* BoschAssignmtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63F61E14395100F14C66 /* BoschAssignmtUITests.swift */; };
+		FD0C64051E16176800F14C66 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64041E16176800F14C66 /* DatabaseController.swift */; };
+		FD0C641B1E1679D800F14C66 /* Admin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64151E1679D800F14C66 /* Admin+CoreDataClass.swift */; };
+		FD0C641C1E1679D800F14C66 /* Admin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64161E1679D800F14C66 /* Admin+CoreDataProperties.swift */; };
+		FD0C641D1E1679D800F14C66 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64171E1679D800F14C66 /* User+CoreDataClass.swift */; };
+		FD0C641E1E1679D800F14C66 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64181E1679D800F14C66 /* User+CoreDataProperties.swift */; };
+		FD0C641F1E1679D800F14C66 /* UserDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64191E1679D800F14C66 /* UserDetails+CoreDataClass.swift */; };
+		FD0C64201E1679D800F14C66 /* UserDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C641A1E1679D800F14C66 /* UserDetails+CoreDataProperties.swift */; };
+		FD0C64231E16955900F14C66 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64221E16955900F14C66 /* UserLoginViewController.swift */; };
+		FD0C64251E169ABB00F14C66 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64241E169ABB00F14C66 /* RegistrationViewController.swift */; };
+		FD0C64271E16D53D00F14C66 /* TruckMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64261E16D53D00F14C66 /* TruckMapViewController.swift */; };
+		FD0C642D1E18C8F700F14C66 /* UserRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C642C1E18C8F700F14C66 /* UserRegistrationTableViewController.swift */; };
+		FD0C642F1E18DD7300F14C66 /* AdminUserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C642E1E18DD7300F14C66 /* AdminUserSelectionViewController.swift */; };
+		FD0C64441E19875600F14C66 /* Run+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64401E19875600F14C66 /* Run+CoreDataClass.swift */; };
+		FD0C64451E19875600F14C66 /* Run+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64411E19875600F14C66 /* Run+CoreDataProperties.swift */; };
+		FD0C64461E19875600F14C66 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64421E19875600F14C66 /* Location+CoreDataClass.swift */; };
+		FD0C64471E19875600F14C66 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C64431E19875600F14C66 /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EAA4E5CF8487EE9E5D5A365 /* Pods-BoschAssignmtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmtTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmtTests/Pods-BoschAssignmtTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20B6BA1C4B98A8CC970B6D31 /* Pods_BoschAssignmtTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoschAssignmtTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		398B6BB60A19A2C639D988F3 /* Pods_BoschAssignmtUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoschAssignmtUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671BC25663F507230C1B9D8E /* Pods-BoschAssignmtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmtUITests/Pods-BoschAssignmtUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B30E41744D0B3CD802F40ED /* Pods-BoschAssignmt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmt/Pods-BoschAssignmt.release.xcconfig"; sourceTree = "<group>"; };
+		8F9A92CA468989BFCED3F00D /* Pods-BoschAssignmtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmtTests/Pods-BoschAssignmtTests.release.xcconfig"; sourceTree = "<group>"; };
+		9370508CF04D58621AF447DD /* Pods-BoschAssignmtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmtUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmtUITests/Pods-BoschAssignmtUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A5CBA46310932DF04753C2 /* Pods_BoschAssignmt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoschAssignmt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EC8660B377CDD821096EB8 /* Pods-BoschAssignmt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoschAssignmt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoschAssignmt/Pods-BoschAssignmt.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0C63D01E14395100F14C66 /* BoschAssignmt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoschAssignmt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0C63D31E14395100F14C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0C63D51E14395100F14C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +77,22 @@
 		FD0C63F21E14395100F14C66 /* BoschAssignmtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoschAssignmtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0C63F61E14395100F14C66 /* BoschAssignmtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoschAssignmtUITests.swift; sourceTree = "<group>"; };
 		FD0C63F81E14395100F14C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C64041E16176800F14C66 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		FD0C64151E1679D800F14C66 /* Admin+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Admin+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD0C64161E1679D800F14C66 /* Admin+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Admin+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD0C64171E1679D800F14C66 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD0C64181E1679D800F14C66 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD0C64191E1679D800F14C66 /* UserDetails+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD0C641A1E1679D800F14C66 /* UserDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD0C64221E16955900F14C66 /* UserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		FD0C64241E169ABB00F14C66 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		FD0C64261E16D53D00F14C66 /* TruckMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckMapViewController.swift; sourceTree = "<group>"; };
+		FD0C642C1E18C8F700F14C66 /* UserRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		FD0C642E1E18DD7300F14C66 /* AdminUserSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminUserSelectionViewController.swift; sourceTree = "<group>"; };
+		FD0C64401E19875600F14C66 /* Run+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Run+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD0C64411E19875600F14C66 /* Run+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Run+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD0C64421E19875600F14C66 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD0C64431E19875600F14C66 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A435D739CA5EB86D2AB1155D /* Pods_BoschAssignmt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967F8666A497764CD3D14063 /* Pods_BoschAssignmtTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD9C5EF6BAFDEC7BE7C5898 /* Pods_BoschAssignmtUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40C26FB7C0FA81265FDFED7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A5CBA46310932DF04753C2 /* Pods_BoschAssignmt.framework */,
+				20B6BA1C4B98A8CC970B6D31 /* Pods_BoschAssignmtTests.framework */,
+				398B6BB60A19A2C639D988F3 /* Pods_BoschAssignmtUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D94D4DA8A61C9A2160C765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC8660B377CDD821096EB8 /* Pods-BoschAssignmt.debug.xcconfig */,
+				7B30E41744D0B3CD802F40ED /* Pods-BoschAssignmt.release.xcconfig */,
+				1EAA4E5CF8487EE9E5D5A365 /* Pods-BoschAssignmtTests.debug.xcconfig */,
+				8F9A92CA468989BFCED3F00D /* Pods-BoschAssignmtTests.release.xcconfig */,
+				9370508CF04D58621AF447DD /* Pods-BoschAssignmtUITests.debug.xcconfig */,
+				671BC25663F507230C1B9D8E /* Pods-BoschAssignmtUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD0C63C71E14395100F14C66 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +153,8 @@
 				FD0C63EA1E14395100F14C66 /* BoschAssignmtTests */,
 				FD0C63F51E14395100F14C66 /* BoschAssignmtUITests */,
 				FD0C63D11E14395100F14C66 /* Products */,
+				D0D94D4DA8A61C9A2160C765 /* Pods */,
+				40C26FB7C0FA81265FDFED7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +171,16 @@
 		FD0C63D21E14395100F14C66 /* BoschAssignmt */ = {
 			isa = PBXGroup;
 			children = (
+				FD0C64211E1690EE00F14C66 /* Coredata */,
 				FD0C63D31E14395100F14C66 /* AppDelegate.swift */,
 				FD0C63D51E14395100F14C66 /* ViewController.swift */,
+				FD0C64221E16955900F14C66 /* UserLoginViewController.swift */,
+				FD0C64241E169ABB00F14C66 /* RegistrationViewController.swift */,
+				FD0C642C1E18C8F700F14C66 /* UserRegistrationTableViewController.swift */,
 				FD0C63D71E14395100F14C66 /* Main.storyboard */,
+				FD0C64041E16176800F14C66 /* DatabaseController.swift */,
+				FD0C64261E16D53D00F14C66 /* TruckMapViewController.swift */,
+				FD0C642E1E18DD7300F14C66 /* AdminUserSelectionViewController.swift */,
 				FD0C63DD1E14395100F14C66 /* Assets.xcassets */,
 				FD0C63DF1E14395100F14C66 /* LaunchScreen.storyboard */,
 				FD0C63E21E14395100F14C66 /* Info.plist */,
@@ -128,6 +207,23 @@
 			path = BoschAssignmtUITests;
 			sourceTree = "<group>";
 		};
+		FD0C64211E1690EE00F14C66 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C64401E19875600F14C66 /* Run+CoreDataClass.swift */,
+				FD0C64411E19875600F14C66 /* Run+CoreDataProperties.swift */,
+				FD0C64421E19875600F14C66 /* Location+CoreDataClass.swift */,
+				FD0C64431E19875600F14C66 /* Location+CoreDataProperties.swift */,
+				FD0C64151E1679D800F14C66 /* Admin+CoreDataClass.swift */,
+				FD0C64161E1679D800F14C66 /* Admin+CoreDataProperties.swift */,
+				FD0C64171E1679D800F14C66 /* User+CoreDataClass.swift */,
+				FD0C64181E1679D800F14C66 /* User+CoreDataProperties.swift */,
+				FD0C64191E1679D800F14C66 /* UserDetails+CoreDataClass.swift */,
+				FD0C641A1E1679D800F14C66 /* UserDetails+CoreDataProperties.swift */,
+			);
+			name = Coredata;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0C63FB1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmt" */;
 			buildPhases = (
+				66115976F64BB0E012C99363 /* [CP] Check Pods Manifest.lock */,
 				FD0C63CC1E14395100F14C66 /* Sources */,
 				FD0C63CD1E14395100F14C66 /* Frameworks */,
 				FD0C63CE1E14395100F14C66 /* Resources */,
+				D2E9D6F8A78FA830A0EB585E /* [CP] Embed Pods Frameworks */,
+				8EDB01A5AFEC176BAFDD37DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0C63FE1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtTests" */;
 			buildPhases = (
+				A981EAD7F7D806A0D72BCCC5 /* [CP] Check Pods Manifest.lock */,
 				FD0C63E31E14395100F14C66 /* Sources */,
 				FD0C63E41E14395100F14C66 /* Frameworks */,
 				FD0C63E51E14395100F14C66 /* Resources */,
+				0A13E597E134266C9271E13C /* [CP] Embed Pods Frameworks */,
+				CF4C5AE0E932C213F1BB621A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0C64011E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtUITests" */;
 			buildPhases = (
+				E0966879D00F75089388CC37 /* [CP] Check Pods Manifest.lock */,
 				FD0C63EE1E14395100F14C66 /* Sources */,
 				FD0C63EF1E14395100F14C66 /* Frameworks */,
 				FD0C63F01E14395100F14C66 /* Resources */,
+				D7430D6DD456499CB4498470 /* [CP] Embed Pods Frameworks */,
+				92F052C311BC22321AD4E394 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +362,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A13E597E134266C9271E13C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmtTests/Pods-BoschAssignmtTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66115976F64BB0E012C99363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDB01A5AFEC176BAFDD37DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmt/Pods-BoschAssignmt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F052C311BC22321AD4E394 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmtUITests/Pods-BoschAssignmtUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A981EAD7F7D806A0D72BCCC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4C5AE0E932C213F1BB621A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmtTests/Pods-BoschAssignmtTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E9D6F8A78FA830A0EB585E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmt/Pods-BoschAssignmt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7430D6DD456499CB4498470 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoschAssignmtUITests/Pods-BoschAssignmtUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0966879D00F75089388CC37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD0C63CC1E14395100F14C66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0C64051E16176800F14C66 /* DatabaseController.swift in Sources */,
+				FD0C64231E16955900F14C66 /* UserLoginViewController.swift in Sources */,
+				FD0C641F1E1679D800F14C66 /* UserDetails+CoreDataClass.swift in Sources */,
+				FD0C642D1E18C8F700F14C66 /* UserRegistrationTableViewController.swift in Sources */,
 				FD0C63D61E14395100F14C66 /* ViewController.swift in Sources */,
+				FD0C64451E19875600F14C66 /* Run+CoreDataProperties.swift in Sources */,
+				FD0C64461E19875600F14C66 /* Location+CoreDataClass.swift in Sources */,
+				FD0C64201E1679D800F14C66 /* UserDetails+CoreDataProperties.swift in Sources */,
+				FD0C642F1E18DD7300F14C66 /* AdminUserSelectionViewController.swift in Sources */,
+				FD0C641E1E1679D800F14C66 /* User+CoreDataProperties.swift in Sources */,
+				FD0C64251E169ABB00F14C66 /* RegistrationViewController.swift in Sources */,
+				FD0C64471E19875600F14C66 /* Location+CoreDataProperties.swift in Sources */,
 				FD0C63DC1E14395100F14C66 /* BoschAssignmt.xcdatamodeld in Sources */,
 				FD0C63D41E14395100F14C66 /* AppDelegate.swift in Sources */,
+				FD0C64441E19875600F14C66 /* Run+CoreDataClass.swift in Sources */,
+				FD0C641B1E1679D800F14C66 /* Admin+CoreDataClass.swift in Sources */,
+				FD0C641C1E1679D800F14C66 /* Admin+CoreDataProperties.swift in Sources */,
+				FD0C641D1E1679D800F14C66 /* User+CoreDataClass.swift in Sources */,
+				FD0C64271E16D53D00F14C66 /* TruckMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +673,7 @@
 		};
 		FD0C63FC1E14395100F14C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EC8660B377CDD821096EB8 /* Pods-BoschAssignmt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BoschAssignmt/Info.plist;
@@ -426,6 +686,7 @@
 		};
 		FD0C63FD1E14395100F14C66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B30E41744D0B3CD802F40ED /* Pods-BoschAssignmt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BoschAssignmt/Info.plist;
@@ -438,6 +699,7 @@
 		};
 		FD0C63FF1E14395100F14C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA4E5CF8487EE9E5D5A365 /* Pods-BoschAssignmtTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +714,7 @@
 		};
 		FD0C64001E14395100F14C66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9A92CA468989BFCED3F00D /* Pods-BoschAssignmtTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +729,7 @@
 		};
 		FD0C64021E14395100F14C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9370508CF04D58621AF447DD /* Pods-BoschAssignmtUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BoschAssignmtUITests/Info.plist;
@@ -479,6 +743,7 @@
 		};
 		FD0C64031E14395100F14C66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671BC25663F507230C1B9D8E /* Pods-BoschAssignmtUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BoschAssignmtUITests/Info.plist;
@@ -509,6 +774,7 @@
 				FD0C63FD1E14395100F14C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0C63FE1E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +783,7 @@
 				FD0C64001E14395100F14C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0C64011E14395100F14C66 /* Build configuration list for PBXNativeTarget "BoschAssignmtUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +792,7 @@
 				FD0C64031E14395100F14C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

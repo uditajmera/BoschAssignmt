@@ -1,0 +1,6 @@
+framework module Pods_BoschAssignmt {
+  umbrella header "Pods-BoschAssignmt-umbrella.h"
+
+  export *
+  module * { export * }
+}
